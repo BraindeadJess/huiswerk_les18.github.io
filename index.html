@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Titel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Elsie&display=swap" rel="stylesheet">
+        <style>
+            [class*="col-"] {
+            width: 100%;
+            }
+            @media only screen and (min-width: 768px) {
+            [class*="col-"] {
+            float: left;
+            padding: 15px;
+            }
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+            }
+            .header {
+            background-color: olive;
+            color: white;
+            padding: 15px;
+            }
+            .header h1{
+            font-family: 'Elsie', cursive;
+            background-image: url('afbeeldingen/wageningen1.jpg');
+            background-size: 10%;
+            }
+            .feiten {
+                background-color: aquamarine;
+            }
+            .artikelen {
+                background-color: aqua;
+            }
+            img{
+                float: right;
+                width: 120px;
+                height: 80px;
+            }
+            .footer {
+            background-color: gray;
+            color: white;
+            padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Wageningen</h1>
+        </div>
+        <div class="row">
+            <div class="col-2 feiten">
+                <h3>Feiten</h3>
+                <ul>
+                    <li>Oppervlakte: 32,36 km2</li>
+                    <li>Hoogte: 9m</li>
+                    <li>Inwonersaantal: 38.774</li>
+                    <li>Netnummer: 0317</li>
+                    <li>Provincie: Gelderland</li>
+                </ul>
+            </div>
+            <div class="col-9 artikelen">
+                <div>
+                    <article>
+                        <img src="afbeeldingen/arboretum.jpg" alt="placeholder">
+                        <h2>Arboretum Belmonte</h2>
+                        <p>Op de Wageningse berg, een stuwwal uit de ijstijd, ligt het voormalige landgoed Belmonte met een schitterend uitzicht over het rivierengebied. Het landgoed werd eind 19e eeuw gesticht door Thierry Juste baron de Constant Rebecque de Villars. Na de Tweede Wereldoorlog kwam het door oorlog gehavende landgoed in handen van Wageningen Universiteit, die er een botanische tuin vestigde. </p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="afbeeldingen/casteelse_poort.jpg" alt="placeholder">
+                        <h2>Museum De Casteelse Poort</h2>
+                        <p>De Casteelse Poort is een klein museum in de Gelderse stad Wageningen. Het museum biedt zowel permanente als tijdelijke tentoonstellingen over de geschiedenis van Wageningen, maar ook exposities van moderne kunst in het zogenaamde Koetshuis.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </body>
+</html>
+
